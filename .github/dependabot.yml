@@ -1,0 +1,20 @@
+version: 2
+
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "18:07"
+      timezone: "Europe/Stockholm"
+    assignees:
+      - "marvingnils"
+
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "18:12"
+      timezone: "Europe/Stockholm"
+    assignees:
+      - "marvingnils"
