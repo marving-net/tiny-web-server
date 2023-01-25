@@ -10,4 +10,5 @@ RUN mkdir -p /data
 WORKDIR /data
 
 ENTRYPOINT ["thttpd", "-D", "-h", "0.0.0.0", "-p", "8080", "-u", "guest", "-l", "-", "-M", "60"]
+
 CMD ["-d", "/data"]
