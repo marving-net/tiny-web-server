@@ -3,7 +3,7 @@ name: Container All The Things
 
 on:
   schedule:
-    - cron: 17 23 * * WED
+    - cron: "17 23 * * WED"
   push:
     branches: [main]
     # Publish semver tags as releases.
