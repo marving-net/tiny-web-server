@@ -1,7 +1,8 @@
 {
 	"recommendations": [
 		"editorconfig.editorconfig",
-		"ms-azuretools.vscode-docker",
-		"teamhub.teamhub"
+		"github.vscode-github-actions",
+		"github.vscode-pull-request-github",
+		"ms-azuretools.vscode-docker"
 	]
 }
