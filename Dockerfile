@@ -5,8 +5,6 @@ RUN apk add --update --no-cache thttpd && \
 
 EXPOSE 8080
 
-RUN mkdir -p /data
-
 WORKDIR /data
 
 ENTRYPOINT ["thttpd", "-D", "-h", "0.0.0.0", "-p", "8080", "-u", "guest", "-l", "-", "-M", "60"]
