@@ -2,16 +2,16 @@
 version: 2
 
 updates:
-  - package-ecosystem: github-actions
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: daily
+      interval: "daily"
       time: "18:07"
-      timezone: Europe/Stockholm
+      timezone: "Europe/Stockholm"
 
-  - package-ecosystem: docker
+  - package-ecosystem: "docker"
     directory: "/"
     schedule:
-      interval: daily
+      interval: "daily"
       time: "18:12"
-      timezone: Europe/Stockholm
+      timezone: "Europe/Stockholm"
