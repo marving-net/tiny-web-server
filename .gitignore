@@ -1,11 +1,10 @@
 # IDEs
 .idea/
-.vscode/
+.vscode/*
 !.vscode/extensions.json
-!.vscode/launch.json
-!.vscode/settings.json
-!.vscode/tasks.json
 *.code-workspace
 .*.swp
+
 # Other
+build/
 tmp/
