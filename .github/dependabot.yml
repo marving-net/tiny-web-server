@@ -8,6 +8,8 @@ updates:
       interval: "daily"
       time: "18:07"
       timezone: "Europe/Stockholm"
+    assignees:
+      - "marvingnils"
 
   - package-ecosystem: "docker"
     directory: "/"
@@ -15,3 +17,5 @@ updates:
       interval: "daily"
       time: "18:12"
       timezone: "Europe/Stockholm"
+    assignees:
+      - "marvingnils"
