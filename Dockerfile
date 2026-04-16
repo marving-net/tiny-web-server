@@ -1,4 +1,4 @@
-FROM alpine:3.23.3
+FROM alpine:3.23.4
 
 RUN apk add --update --no-cache thttpd && \
 	rm -rf /var/cache/apk/*
