@@ -1,10 +1,14 @@
 # IDEs
-.idea/
+.idea/*
+!.idea/icon.svg
 .vscode/*
 !.vscode/extensions.json
 *.code-workspace
 .*.swp
 
 # Other
-build/
 tmp/
+
+# System files
+.DS_Store
+Thumbs.db
